@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "actividad1", "actividad1\actividad1.csproj", "{C7A1D7E0-7FC6-48B5-B6F6-6B841F00FCAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{A732BAE3-CA48-4909-9058-2F6BA740B9AB}"
+	ProjectSection(SolutionItems) = preProject
+		script\base.sql = script\base.sql
+		script\launchvscode.bat = script\launchvscode.bat
+		script\README.md = script\README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7A1D7E0-7FC6-48B5-B6F6-6B841F00FCAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7A1D7E0-7FC6-48B5-B6F6-6B841F00FCAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7A1D7E0-7FC6-48B5-B6F6-6B841F00FCAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7A1D7E0-7FC6-48B5-B6F6-6B841F00FCAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B0EE59E-ADC9-4056-B1CD-772DFD875AA5}
+	EndGlobalSection
+EndGlobal
