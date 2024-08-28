@@ -16,7 +16,7 @@ valor_final Decimal(18,2),
 Id_envio Int not null,
 Precio_por_Unidad Decimal(18,2),
 Unidades Decimal (18,2),
-Foreign key Id_Envio References Envios (Id))
+Foreign key (Id_Envio) References Envios (Id))
 GO
 
 

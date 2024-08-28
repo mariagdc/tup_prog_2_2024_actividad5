@@ -1,6 +1,7 @@
 ﻿using System;
 using System.CodeDom;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -30,6 +31,11 @@ namespace actividad1.Models
                 cmd.CommandType = CommandType.Text;
 
                 conn.Open();
+                var rd = cmd.ExecuteReader();
+                while (rd.Read()== true)
+                {
+
+                }
             })
 
 
